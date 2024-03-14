@@ -1,0 +1,23 @@
+POST http://localhost:4001/register
+Content-Type: application/json
+
+{
+  "first_name": "Mr.",
+  "last_name": "X",
+  "email": "x@x.com",
+  "password": "12345",
+  "roles": [
+    {
+      "admin": true,
+      "representative": true,
+      "fund": "BPFL"
+    },
+    {
+      "admin": false,
+      "representative": false,
+      "fund": "VLEP"
+    }
+  ]
+}
+
+###

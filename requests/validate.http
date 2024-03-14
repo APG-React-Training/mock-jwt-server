@@ -1,0 +1,10 @@
+POST http://localhost:4001/validate
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjU3OTZiOTdkMDljMjhmOWIzYWY0OGYwIiwiZW1haWwiOiJ4QHguY29tIiwiaWF0IjoxNzEwNDEzMzU1LCJleHAiOjE3MTA0MTYzNTV9.Aps1MXd5D2ucaW_ywDyF-OWCGs9js9nhh72EAAwPNJo
+
+{
+  "email": "x@x.com"
+}
+
+###

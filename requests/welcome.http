@@ -1,0 +1,7 @@
+GET http://localhost:4001/welcome
+Accept: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjU2NmVlYTBkMzQxZDIzODFhMTljM2U3IiwiZW1haWwiOiJwaWV0amUucHVrQGF6bC5ldSIsImlhdCI6MTcwMTI0NjExMCwiZXhwIjoxNzAxMjQ2NDEwfQ.yQcmJWeutblxzHvWBqCSJS17xBwA5CCa_9RXRoWJNag
+
+
+
+

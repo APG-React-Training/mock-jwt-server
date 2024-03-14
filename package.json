@@ -1,0 +1,39 @@
+{
+  "name": "azl-jwt-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preboot": "docker.sh",
+    "start": "nodemon index.js",
+    "boot": "nodemon index.js",
+    "format": "prettier --write . --log-level silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azl-react-community/mock-jwt-server"
+  },
+  "keywords": [
+    "jwt",
+    "node",
+    "authentication",
+    "mongodb"
+  ],
+  "author": "René Krewinkel",
+  "license": "ISC",
+  "homepage": "https://github.com/azl-react-community/mock-jwt-server#README.md",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "prettier": "^3.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
